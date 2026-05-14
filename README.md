@@ -9,4 +9,7 @@ Deletes duplicate calendar entries on Google calendar using API for higher daily
 5. Check "Show appsscript.json manifest file in editor"
 6. Click on appsscript.json
 7. Add the file contents of appsscript.json and save.
-8. Run the script from the code view or set up triggers to automatically run it every X minutes/hours
+8. Get the Calendar ID for the calendar from which you want to work from within your calendar settings.
+9. Open Project Settings
+10. Add a script property called 'CALENDAR_ID' and paste the calendar ID in the second box. Save.
+11. Run the script from the code view or set up triggers to automatically run it every X minutes/hours.
