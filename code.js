@@ -1,7 +1,7 @@
 // ============================================================
 // CONFIG
 // ============================================================
-const CALENDAR_ID   = '[Get calendar ID from Google Calendar]';
+const CALENDAR_ID = PropertiesService.getScriptProperties().getProperty('CALENDAR_ID');
 const BATCH_SIZE    = 50;    // Google allows up to 50 requests per batch call
 const REQUEST_DELAY = 100;   // ms between batch calls to avoid rate limiting
 
