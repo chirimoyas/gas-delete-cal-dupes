@@ -1,7 +1,7 @@
 // ============================================================
 // CONFIG
 // ============================================================
-const CALENDAR_ID   = 'family04816614261991598660@group.calendar.google.com';
+const CALENDAR_ID   = '[Get calendar ID from Google Calendar]';
 const BATCH_SIZE    = 50;    // Google allows up to 50 requests per batch call
 const REQUEST_DELAY = 100;   // ms between batch calls to avoid rate limiting
 
