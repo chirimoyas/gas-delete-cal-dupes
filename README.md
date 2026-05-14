@@ -1,7 +1,7 @@
 # gas-delete-cal-dupes
 Deletes duplicate calendar entries on Google calendar using API for higher daily limits.
 
-Instructions:
+# Instructions:
 1. While logged into Google, navigate to https://script.google.com
 2. Create a project and name it "Delete Dupes" or whatever you want
 3. Add the code.js file contents to the code.js file that is automatically created in your project and click save.
